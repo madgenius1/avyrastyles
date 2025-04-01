@@ -1,12 +1,12 @@
 "use client"
 
+import Hero from "./components/landingpage/Hero";
+
 
 export default function Home() {
   return (
-    <div className="">
-      <h3 className="text-gray-900 tex-xl font-bold">
-        Avyra Styles
-      </h3>
+    <div className="flex flex-col">
+      <Hero />
     </div>
   );
 }
