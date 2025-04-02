@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <main className="min-h-screen mx-auto">
-            <div className="flex flex-col lg:flex-row gap-4 h-full items-center justify-between">
+            <div className="flex flex-col lg:flex-row md:flex-row gap-4 lg:gap-8 md:gap-6 h-full items-center justify-between">
                 {/* First Item */}
-                <div className="w-full py-6 lg:w-lg">
+                <div className="w-full py-6 lg:w-lg xl:w-xl">
                     <div
                         className="relative w-full flex flex-col items-center text-center justify-center p-6 gap-6 bg-[url('/assets/styleuno.png')] bg-cover bg-no-repeat bg-center h-[60vh] lg:h-[80vh] min-h-[300px]"
                     >
@@ -24,7 +24,7 @@ export default function Hero() {
                 </div>
 
                 {/* Second Item */}
-                <div className="w-full py-6 lg:w-lg">
+                <div className="w-full py-6 lg:w-lg xl:w-xl">
                     <div
                         className="relative w-full flex flex-col items-center text-center justify-center p-6 gap-6 bg-[url('/assets/styletwo.png')] bg-cover bg-no-repeat bg-center h-[60vh] lg:h-[80vh] min-h-[300px]"
                     >
