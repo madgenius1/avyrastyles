@@ -14,7 +14,7 @@ export default function Navbar() {
     const closeMenu = () => setMenuOpen(false);
 
     return (
-        <nav className="flex flex-row items-center justify-between px-6 py-4 lg:px-10 z-50 bg-white relative">
+        <nav className="flex flex-row items-center justify-between px-6 py-4 lg:px-12 z-50 bg-[#FDFDF8] relative">
             {/* Logo */}
             <div>
                 <Link href="/" className={`${cormorant.className} text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-5xl uppercase leading-relaxed`}>
@@ -23,7 +23,7 @@ export default function Navbar() {
             </div>
 
             {/* Links for larger screens */}
-            <div className="hidden sm:flex flex-row gap-4 mx-2 items-center justify-center">
+            <div className="hidden sm:flex md:flex flex-row gap-4 items-center">
                 <Link href="/shop" className="text-gray-800 font-medium capitalize">Shop</Link>
                 <Link href="/categories" className="text-gray-800 font-medium capitalize">Categories</Link>
                 <Link href="/about-us" className="text-gray-800 font-medium capitalize">Our Story</Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
             </div>
 
             {/* Account and Cart */}
-            <div className="hidden sm:flex flex-row gap-4 mx-2 items-center">
+            <div className="hidden sm:flex md:flex flex-row gap-4 mx-2 items-center">
                 <Link href="/login" className="text-gray-800 font-medium capitalize">Log In</Link>
                 <Link href="/cart" className="text-gray-800 flex flex-row items-center gap-1">
                     <FiShoppingCart size={18} />
@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
 
             {/* Hamburger Menu */}
-            <div className="sm:hidden">
+            <div className="sm:hidden md:hidden">
                 <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-800 font-medium">
                     {menuOpen ? <IoMdClose size={30} /> : <HiOutlineBars2 size={30} />}
                 </button>
