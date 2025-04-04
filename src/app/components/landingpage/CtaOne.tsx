@@ -6,7 +6,7 @@ import { cormorant } from '../ui/font';
 export default function CtaOne() {
     return (
         <main className="lg:px-12 md:p-6 p-4 w-full">
-            <div className="bg-[#F6E4D0] flex flex-col w-full item-center justify-center">
+            <div className="bg-[#F6E4D0] flex flex-col w-full item-center justify-center text-center">
                 <p className={`${cormorant.className} text-gray-800 lg:text-5xl md:text-3xl text-xl font-light uppercase mt-4 justify-stretch `}>
                     Your go-to fashion stop:
                 </p>
