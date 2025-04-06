@@ -16,12 +16,12 @@ export default function Categories() {
                     Shop By Category
                 </h3>
                 <div className="flex lg:flex-row md:flex-row flex-col gap-4 w-full">
-                    <div className="lg:w-1/2 md:w-1/2 w-full grid grid-cols-1 gap-4 h-[50vh] lg:-[70vh]">
+                    <div className="lg:w-1/2 md:w-1/2 w-full grid grid-cols-1 gap-4 lg:h-[60vh] h-[50vh]">
                         <Link
                             href="/accessories"
-                            className="relative flex items-center text-center justify-center bg-[url('/assets/styleuno.png')] bg-cover bg-center row-span-2 h-full"
+                            className="relative flex items-center text-center justify-center bg-[url('/assets/accessories.png')] bg-cover bg-center row-span-2 h-full"
                         >
-                            <span className={`${cormorant.className} lg:text-5xl md:text-4xl text-3xl text-white font-bold uppercase drop-shadow-md`}>
+                            <span className={`${cormorant.className} lg:text-4xl md:text-3xl text-2xl text-white font-bold uppercase drop-shadow-md`}>
                                 Accessories
                             </span>
                         </Link>
@@ -32,10 +32,10 @@ export default function Categories() {
                                 <Link
                                     key={index}
                                     href={category.link}
-                                    className={`relative flex items-center text-center justify-center py-2 bg-cover bg-center h-[50vh] md:h-[30vh] lg:h-[25vh]`}
+                                    className={`relative flex items-center text-center justify-center py-2 bg-cover bg-center h-[50vh] md:h-[30vh] lg:h-[30vh]`}
                                     style={{ backgroundImage: `url(${category.backgroundUrl})` }}
                                 >
-                                    <span className={`${cormorant.className} lg:text-5xl md:text-3xl text-3xl text-white font-bold uppercase drop-shadow-md`}>
+                                    <span className={`${cormorant.className} lg:text-4xl md:text-3xl text-2xl text-white font-bold uppercase drop-shadow-md`}>
                                         {category.name}
                                     </span>
                                 </Link>
