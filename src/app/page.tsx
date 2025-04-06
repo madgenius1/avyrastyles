@@ -2,7 +2,10 @@
 
 import Categories from "./components/landingpage/Categories";
 import CtaOne from "./components/landingpage/CtaOne";
+import CtaThree from "./components/landingpage/CtaThree";
+import CtaTwo from "./components/landingpage/CtaTwo";
 import Hero from "./components/landingpage/Hero";
+import StoryComponent from "./components/landingpage/StoryComponent";
 
 
 export default function Home() {
@@ -11,6 +14,9 @@ export default function Home() {
       <Hero />
       <CtaOne />
       <Categories />
+      <CtaTwo />
+      <StoryComponent /> 
+      <CtaThree />
     </div>
   );
 }

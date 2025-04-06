@@ -6,7 +6,7 @@ import { cormorant } from '../ui/font';
 
 export default function Hero() {
     return (
-        <main className="lg:px-12 md:p-6 p-4">
+        <main className="lg:px-12 md:p-6 p-4 min-h-screen">
             <div className="flex lg:flex-row md:flex-row flex-col lg:gap-6 md:gap-6 gap-4 ">
                 <div className="lg:w-1/2 md:w-1/2 w-full">
                     <div
