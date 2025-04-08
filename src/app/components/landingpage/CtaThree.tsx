@@ -13,7 +13,7 @@ export default function CtaThree() {
     return (
         <div className="lg:py-6">
             <div className="w-full lg:py-12 md:py-6 py-4">
-                <div className="bg-[#F6E4D0] lg:p-12 md:p-6 p-4 flex lg:flex-row justify-between flex-col w-full item-center text-center">
+                <div className="bg-[#F6E4D0] lg:p-12 md:p-6 p-4 flex lg:flex-row md:flex-row justify-between flex-col w-full items-center text-center">
                     {components.map((component, index) => (
                         <div key={index} className="lg:w-1/3 md:w-1/3 w-full p-4 flex flex-col items-center justify-center gap-4 lg:gap-8 space-y-4">
                             <Image src={component.imageUrl} alt={component.imageAlt} width={100} height={100} className="w-16 h-16" />

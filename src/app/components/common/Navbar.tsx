@@ -56,9 +56,9 @@ export default function Navbar() {
                             <li><Link href="/about-us" className="text-gray-800 font-medium " onClick={closeMenu}>Our Story</Link></li>
                             <li><Link href="/contact" className="text-gray-800 font-medium " onClick={closeMenu}>Contact</Link></li>
                             <li className="flex flex-row gap-4 justify-end mt-4">
-                                <Link href="/facebook" className="text-gray-800" onClick={closeMenu}><FaFacebook size={30} /></Link>
-                                <Link href="/instagram" className="text-gray-800" onClick={closeMenu}><FaInstagram size={30} /></Link>
-                                <Link href="/tiktok" className="text-gray-800" onClick={closeMenu}><FaTiktok size={30} /></Link>
+                                <Link href="https://www.facebook.com/share/16CuWtikof/?mibextid=wwXIfr" target='blank' className="text-gray-800" onClick={closeMenu}><FaFacebook size={30} /></Link>
+                                <Link href="https://www.instagram.com/avyra_styles_ke/" className="text-gray-800" target='blank' onClick={closeMenu}><FaInstagram size={30} /></Link>
+                                <Link href="https://www.tiktok.com/@avyra.styles?_t=ZM-8vKaOZw4hsb&_r=1" target='blank' className="text-gray-800" onClick={closeMenu}><FaTiktok size={30} /></Link>
                             </li>
                         </ul>
                     </div>

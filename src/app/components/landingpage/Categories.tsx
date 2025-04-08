@@ -16,8 +16,8 @@ export default function Categories() {
                     <h3 className={`${cormorant.className} text-gray-900 lg:text-5xl md:text-3xl text-xl font-light leading-relaxed text-center uppercase`}>
                         Shop By Category
                     </h3>
-                    <div className="flex lg:flex-row md:flex-row flex-col gap-4 w-full">
-                        <div className="lg:w-1/2 md:w-1/2 w-full grid grid-cols-1 gap-4 lg:h-[60vh] h-[50vh]">
+                    <div className="flex lg:flex-row flex-col gap-4 w-full">
+                        <div className="lg:w-1/2  w-full grid grid-cols-1 gap-4 lg:h-[60vh] h-[50vh]">
                             <Link
                                 href="/accessories"
                                 className="relative flex items-center text-center justify-center bg-[url('/assets/accessories.png')] bg-cover bg-center row-span-2 h-full"
@@ -27,7 +27,7 @@ export default function Categories() {
                                 </span>
                             </Link>
                         </div>
-                        <div className="lg:w-1/2 md:w-1/2 w-full">
+                        <div className="lg:w-1/2  w-full">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
                                 {categories.map((category, index) => (
                                     <Link
