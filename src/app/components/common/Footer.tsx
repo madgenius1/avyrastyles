@@ -10,7 +10,6 @@ import { HiOutlineMail } from 'react-icons/hi';
 export default function Footer() {
     return (
         <main className=" bg-[#C4725B]">
-            <hr className='lg:p-12 p-4 border-white font-bold' />
             <div className="text-white flex lg:flex-row md:flex-row flex-col justify-between lg:py-12 lg:px-8 md:py-6 p-6 gap-4 md:gap-6 lg:gap-6 w-full">
                 {/* Left Content */}
                 <div className="flex lg:flex-row md:flex-row flex-col gap-4 lg:gap-6 justify-between lg:w-1/2 md:w-1/2 w-full">
@@ -18,7 +17,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-4 lg:py-6 py-4 ">
                         <h1 className={`${cormorant.className} text-2xl lg:text-4xl md:text-3xl font-mediumm uppercase`}>Connect</h1>
                         <div className="flex flex-row gap-3 lg:py-6 py-4">
-                            <Link href="mailto:info@avyrastyles.co.ke" target='blank' className='transition duration-200 ease-in-out hover:scale-110'>
+                            <Link href="mailto:avyrastyles@gmail.com" target='blank' className='transition duration-200 ease-in-out hover:scale-110'>
                                 <HiOutlineMail size={20} color='white' />
                             </Link>
                             <Link href="https://www.instagram.com/avyra_styles_ke/" target='blank' className='transition duration-200 ease-in-out hover:scale-110'>
@@ -71,7 +70,7 @@ export default function Footer() {
                     <h1 className={`${cormorant.className} text-2xl lg:text-4xl md:text-3xl font-mediumm uppercase`}>Avrya Styles Boutique Kenya</h1>
                     <div className=" lg:py-6 py-4 space-y-4 flex flex-col justify-end">
                         <span className="font-medium">
-                            La Muse Women's Fashion Boutique in Kenya, since 2025, celebrates the beauty, strength, and individuality of women.
+                            Avyra Styles&apos; Fashion Boutique in Kenya, since 2024, celebrates the beauty, strength, and individuality of women.
                             <br />
                         </span>
                         <span className="">
@@ -85,10 +84,12 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <hr className='lg:px-12 p-4 border-white font-bold' />
-
-
-
+            <hr className='lg:px-8 p-2 border-white ' />
+            <div className="py-4">
+            <p className="text-md text-white sm:text-left p-4 lg:px-12 ">
+                &copy; Avyra Styles {new Date().getFullYear()}.  Platform by <Link href="https://nickjuma.vercel.app/" target="_blank" className='underline text-md'>Nick Juma</Link>
+            </p>
+            </div>
         </main>
     )
 }
