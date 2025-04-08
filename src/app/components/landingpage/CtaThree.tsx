@@ -4,9 +4,9 @@ import { cormorant } from '../ui/font';
 import Image from 'next/image';
 
 const components = [
-    { imageUrl: "/assets/deliveries.png", imageAlt: "Deliveries", title: "Deliveries", text: "Deliveries are made to your doorstep." },
-    { imageUrl: "/assets/returns.png", imageAlt: "Returns", title: "Returns", text: "Return items within 3 days." },
-    { imageUrl: "/assets/payment.png", imageAlt: "Payment", title: "Secured Payment", text: "Thanks to our secure interface, you can order with complete peace of mind." },
+    { imageUrl: "/assets/deliveries.png", imageAlt: "Deliveries", title: "Deliveries", text: "Deliveries are made to your preferred location." },
+    { imageUrl: "/assets/returns.png", imageAlt: "Returns", title: "Returns", text: "No return policy." },
+    { imageUrl: "/assets/payment.png", imageAlt: "Payment", title: "Secured Payment", text: "Secured payments for your orders." },
 ]
 
 export default function CtaThree() {

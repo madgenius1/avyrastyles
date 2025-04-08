@@ -5,7 +5,7 @@ import CtaOne from "./components/landingpage/CtaOne";
 import CtaThree from "./components/landingpage/CtaThree";
 import CtaTwo from "./components/landingpage/CtaTwo";
 import Hero from "./components/landingpage/Hero";
-import StoryComponent from "./components/landingpage/StoryComponent";
+import WhyAvyra from "./components/landingpage/WhyAvyra";
 
 
 export default function Home() {
@@ -15,8 +15,8 @@ export default function Home() {
       <CtaOne />
       <Categories />
       <CtaTwo />
-      <StoryComponent /> 
       <CtaThree />
+      <WhyAvyra />
     </div>
   );
 }
