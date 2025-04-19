@@ -50,15 +50,15 @@ export default function Navbar() {
                         <button onClick={closeMenu} className="text-gray-800 self-end">
                             <IoMdClose size={32} />
                         </button>
-                        <ul className="flex flex-col gap-6 mt-6 text-right w-3/4 capitalize">
+                        <ul className="flex flex-col gap-6 mt-6 text-right w-3/4 uppercase">
                             <li><Link href="/shop" className="text-gray-800 font-medium " onClick={closeMenu}>Shop</Link></li>
                             <li><Link href="/categories" className="text-gray-800 font-medium " onClick={closeMenu}>Categories</Link></li>
                             <li><Link href="/about-us" className="text-gray-800 font-medium " onClick={closeMenu}>Our Story</Link></li>
                             <li><Link href="/contact" className="text-gray-800 font-medium " onClick={closeMenu}>Contact</Link></li>
                             <li className="flex flex-row gap-4 justify-end mt-4">
-                                <Link href="https://www.facebook.com/share/16CuWtikof/?mibextid=wwXIfr" target='blank' className="text-gray-800" onClick={closeMenu}><FaFacebook size={30} /></Link>
-                                <Link href="https://www.instagram.com/avyra_styles_ke/" className="text-gray-800" target='blank' onClick={closeMenu}><FaInstagram size={30} /></Link>
-                                <Link href="https://www.tiktok.com/@avyra.styles?_t=ZM-8vKaOZw4hsb&_r=1" target='blank' className="text-gray-800" onClick={closeMenu}><FaTiktok size={30} /></Link>
+                                <Link href="https://www.facebook.com/share/16CuWtikof/?mibextid=wwXIfr" target='blank' className="text-gray-800" onClick={closeMenu}><FaFacebook size={24} /></Link>
+                                <Link href="https://www.instagram.com/avyra_styles_ke/" className="text-gray-800" target='blank' onClick={closeMenu}><FaInstagram size={24} /></Link>
+                                <Link href="https://www.tiktok.com/@avyra.styles?_t=ZM-8vKaOZw4hsb&_r=1" target='blank' className="text-gray-800" onClick={closeMenu}><FaTiktok size={24} /></Link>
                             </li>
                         </ul>
                     </div>
