@@ -23,7 +23,7 @@ export default function Page() {
                             </ul>
                         </div>
                     </div>
-                    <div className="w-full md:w-3/4 lg:3/4 py-4 h-screen overflow-y-auto">
+                    <div className="w-full md:w-3/4 lg:3/4 py-4 lg:h-screen h-auto overflow-y-auto">
                         <div className="px-2">
                             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 lg:gap-8 gap-2 justify-between">
                                 {productItems.map((item) => (
